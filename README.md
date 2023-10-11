@@ -22,3 +22,5 @@ Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Tem
 1. We define evaluate expression inside the jsx code eg: const userName="suraj kumar", this varaible can be write inside the jsx code - <p>the profile UserName : {userName} </p>
 
 2. But we cannot write if conditions, functions, inside jsx code only it should be written above the return of the compnents.
+
+3.In useCallback the dependency arrays are giving to optmizie the function if any chnages are made as useCallback memorize, but in useEffect those dependency invoke function call inside the useEffect.

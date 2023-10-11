@@ -6,6 +6,8 @@ const Counter = () => {
 
   const handleIncrement = () => {
     setCounter(counter <= 19 ? counter + 1 : counter)
+    // this is callback in useState which update state separately
+    // setCounter(prevCounter => prevCounter + 1)
   }
 
   const handleDecrement = () => {
